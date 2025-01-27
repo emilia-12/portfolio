@@ -1,30 +1,20 @@
 # Backlog
 
-A collection of user stories you can choose from. Stories inside each priority
-level are not necessarily in order, it's up to your group to decide how they fit
-into your strategy. These are also just suggestion, feel free to change them or
-create your own!
+---
 
 ## Must-Haves
 
-> these are necessary for basic usability
+- [ ] As a user I want to see a `main` section with your name so that I can
+      understand who is the page about.
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [ ] As a user I want to see an `about you` with your description, so that I
+      can know more about you.
 
-## Should-Haves
+- [ ] As a user I want to see a `portfolio` section with your works, so that I
+      can see the projects you have done.
 
-> these will complete the user experience, but are not necessary
+- [ ] As a user I want to see a `skills` section so that I can understand what
+      can you work with.
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
-
-## Could-Haves
-
-> would be really cool ... if there's time
-
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [ ] As a user I want to see a `contact` section so that I can contact you in
+      case I have questions or suggestions.

@@ -1,17 +1,14 @@
-# Name of project
-
-> A longer description
+# My Portfolio
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [My Portfolio](#my-portfolio)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
   - [Technologies](#technologies)
   - [Setup](#setup)
   - [Code Examples](#code-examples)
-  - [Features](#features)
   - [Status](#status)
   - [Inspiration](#inspiration)
   - [Contact](#contact)
@@ -22,7 +19,7 @@
 
 ## General info
 
-> A short description
+My portfolio!
 
 ## Screenshots
 
@@ -32,9 +29,8 @@
 
 - Node 14.16.0
 - VSC code
-- JavaScript
-- ...
-- ...
+- HTML
+- CSS
 
 ## Setup
 
@@ -47,19 +43,6 @@
 console.log("Hello World");
 ```
 
-## Features
-
-List of features ready and Todos for future development
-
--
--
--
-
-To-do list:
-
--
--
-
 ## Status
 
 Project is: _in progress_
@@ -70,7 +53,7 @@ Project by freeCodeCamp.org
 
 ## Contact
 
-By [Name]
+By [Emilia](https://github.com/emilia-12)
 
 ## Instructions for use
 
