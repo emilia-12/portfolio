@@ -1,10 +1,10 @@
-# Name of project
+# Emilia's Portfolio
 
-> A longer description
+> My portfolio!
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Emilia's Portfolio](#emilia-portfolio)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
