@@ -10,7 +10,6 @@
   - [Setup](#setup)
   - [Code Examples](#code-examples)
   - [Status](#status)
-  - [Inspiration](#inspiration)
   - [Contact](#contact)
   - [Instructions for use](#instructions-for-use)
   - [Code Quality Checks](#code-quality-checks)
@@ -23,7 +22,7 @@ My portfolio!
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./planning/images/design.png)
 
 ## Technologies
 
@@ -38,22 +37,25 @@ My portfolio!
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```html
+<div class="sidebar">
+  <nav>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact-me">Contact me</a></li>
+    </ul>
+  </nav>
+</div>
 ```
 
 ## Status
 
-Project is: _in progress_
-
-## Inspiration
-
-Project by freeCodeCamp.org
+Project is: _completed_
 
 ## Contact
 
-By [Emilia](https://github.com/emilia-12)
+[Emilia](https://github.com/emilia-12)
 
 ## Instructions for use
 
