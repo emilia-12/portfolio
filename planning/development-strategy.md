@@ -13,6 +13,16 @@
 - Turned on discussions
 - Added github pages
 
+## Sidebar
+
+### HTML
+
+- add a `sidebar` section with the class `about`
+
+### CSS
+
+- style the `sidebar` class with `flex display`
+
 ## Main
 
 ### HTML
@@ -21,17 +31,7 @@
 
 ### CSS
 
-- style the `main` class with `background-color`
-
-## About you
-
-### HTML
-
-- add a `div` section with the class `about`
-
-### CSS
-
-- style the `about` class with `font-size`
+- style the `main` class with `flex display`
 
 ## Portfolio
 
@@ -41,24 +41,25 @@
 
 ### CSS
 
-- style the `portfolio` class with `display` `inline-block`
-
-## Skills
-
-### HTML
-
-- add a `div` section with the class `skills`
-
-### CSS
-
-- style the `skills` class with `background-color` and add `icons`
+- style the `portfolio` class with `flex display`
 
 ## Contact
 
 ### HTML
 
-- add a `form` section with the class `contact`
+- add a `form` section with the class `contact-form`
 
 ### CSS
 
-- style the `contact` class with `background-color`
+- style the `contact-form` class with `flex display`,
+  `space-between`,`justify-content`
+
+## Footer
+
+### HTML
+
+- add a `footer` section with the class `footer`
+
+### CSS
+
+- style the `footer` class with `background-color`
