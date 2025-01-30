@@ -272,7 +272,7 @@ textarea:focus {
 .footer {
   width: 100%;
   background: #f9f9f9;
-  padding: 25px 0;
+  padding: 10px;
   text-align: center;
   font-size: 14px;
   bottom: 0;
@@ -284,4 +284,18 @@ textarea:focus {
 .footer p {
   margin: 0;
   color: #333;
+  padding: 30px;
+}
+
+.frame {
+  transition: 0.3s ease-in-out;
+}
+
+.frame-div {
+  width: auto;
+}
+
+.frame:hover {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.3);
 }
