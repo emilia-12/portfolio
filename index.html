@@ -1,12 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
 
-    <link href="./styles/index.css" rel="stylesheet" />
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Emilia R. W.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/index.css" />
+</head>
+
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <nav>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact-me">Contact me</a></li>
+      </ul>
+    </nav>
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/emilia-ciobotaru/" target="_blank">
+        <img src="./images/linkedin.png" class="icon" alt="linkedin" /><i class="fab fa-linkedin"></i></a>
+      <a href="https://buymeacoffee.com/emilia.vi" target="_blank"><i class="fab fa-bmac">
+          <img src="./images/buymeacoffee.png" class="icon" alt="buymeacoffee" /></i></a>
+      <a href="https://github.com/emilia-12" target="_blank"><i class="fab fa-instagram">
+          <img src="./images/github.png" class="icon" alt="github" /></i></a>
+    </div>
+  </div>
+
+  <!-- Main Section -->
+  <div class="main" id="home">
+    <h1>Hi, I'm Emilia!</h1>
+    <p>
+      Front-end Developer passionate about <br />
+      crafting elegant web experiences.
+    </p>
+  </div>
+
+  <!-- Portfolio Section -->
+  <p class="h2-text" id="portfolio">My portfolio</p>
+  <div class="portfolio">
+    <div class="portfolio-item">
+      <p class="p-portfolio">Project 1</p>
+      <div>
+        <img src="./images/img2.jpeg" alt="" class="image-portfolio" />
+      </div>
+    </div>
+
+    <div class="portfolio-item">
+      <p class="p-portfolio">Project 2</p>
+      <div>
+        <img src="./images/img1.jpeg" alt="" class="image-portfolio" />
+      </div>
+    </div>
+
+    <div class="portfolio-item">
+      <p class="p-portfolio">Project 3</p>
+      <div>
+        <img src="./images/img3.jpeg" alt="" class="image-portfolio" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Form -->
+  <div id="contact-me">
+    <p class="h2-text">Contact me</p>
+    <form class="contact-form" action="https://formspree.io/f/xeoegyon" method="post">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Name *</label>
+          <input type="text" id="name" placeholder="Your Name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" id="email" placeholder="Your Email" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" placeholder="Subject" />
+      </div>
+      <br />
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Write your message here"></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">© 2025 by Emilia R. W. All rights reserved.</div>
+</body>
+
 </html>
